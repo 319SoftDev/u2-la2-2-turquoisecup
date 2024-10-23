@@ -5,7 +5,7 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-    />
+    /><button class="button">Button</button>
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <script src="script.js" defer></script>
   </head>
@@ -16,7 +16,7 @@
         <h1 class="title">Welcome to E-Foods</h1>
         <p>Click an item to add it to your cart.</p>
         <div id="button-group" class="columns">
-          <div class="column">
+          <div class="column"><input class="input" type="text" placeholder="Text input" /></div>
             <button class="button" id="apple">🍎 Apple: $0.75</button>
           </div>
           <div class="column">
@@ -24,8 +24,10 @@
           </div>
           <div class="column">
             <div class="button" id="mango">🥭 Mango: $1.25</div>
-          </div>
-        </div>
+          </div><progress class="progress is-small is-primary" max="100">15%</progress>
+          <progress class="progress is-danger" max="100">30%</progress>
+          <progress class="progress is-medium is-dark" max="100">45%</progress>
+          <progress class="progress is-large is-info" max="100">60%</progress></div>
         <div id="single-button">
           <div id="clear-button">
             <label aria-hidden="true" for="empty-image">Empty Your Cart</label><br>
